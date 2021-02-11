@@ -5,6 +5,7 @@ var edad
 edad=30
 
 
+<<<<<<< HEAD
 // asignacion de adicion
 edad += 5
 console.log(`Mi edad + 5 años ${edad}`)
@@ -84,3 +85,31 @@ console.log(`cualquier array aunque este vacio es ${Boolean([])}`)
 console.log(`cualquier objet aunque este vacio es ${Boolean({})}`)
 console.log(`cualquier funcion es verdadera ${Boolean(()=>{})}`)
 console.log(`negacion del false ${Boolean(!false)}`)
+=======
+//hoisting
+console.log(nombre)
+var nombre = 'alveiro'
+console.log(nombre)
+
+hey()
+
+function hey() {
+    console.log(`hola ${name}`)
+}
+
+var name = 'Alveiro'
+
+// scope global
+
+var name = 'Alveiro'
+
+function nombre () {
+    // scope local
+    var apellido = 'Hoyos'
+    
+    console.log(`${name} ${apellido}`)
+}
+
+nombre()
+console.log(`${apellido}`)
+>>>>>>> e293bfcce228c7929a3b6fb590a3dc104e4e0453
