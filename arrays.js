@@ -1,3 +1,5 @@
+
+
 const frutas = ["manzana", "pera", "piña", "tomate"]
 
 frutas.length= 6
@@ -51,10 +53,13 @@ console.log(`${frutas}`)
 
 // eliminando al incio
 // shift
-const deleteFrutas1 =  () => {
+/* const deleteFrutas1 =  () => {
     console.log(`fruta a eliminar ${frutas[0]}`)
     deleteFruta = frutas.shift()
-}
+} */
+
+import {deleteFrutas1} from '/delete.js'
+const frutas = ["manzana", "pera", "piña", "tomate"]
 
 deleteFrutas1()
 console.log(`ahora tengo ${frutas.length} frutas`)
@@ -70,6 +75,19 @@ const position = (fruit) => {
 
 position ("piña")
 
+//includes
+const frutas = ["manzana", "pera", "piña", "tomate"]
+
+const position2 = (fruit) => {
+    if (frutas.includes(fruit)){
+        console.log(`La fruta ${fruit} se encuentra en la frutera`)
+    } else {
+        console.log(`Esta fruta ${fruit} no esta en la frutera`)
+    }
+}
+
+position2 ("piña")
+position2("patacon")
 
 // toString
 const frutas = [12,"piña", 20, 45, "tomate"]
