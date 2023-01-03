@@ -5,7 +5,6 @@ var edad
 edad=30
 
 
-<<<<<<< HEAD
 // asignacion de adicion
 edad += 5
 console.log(`Mi edad + 5 años ${edad}`)
@@ -34,7 +33,7 @@ console.log(`La edad elevanda a la 2 ${edad}`)
 // asignacion de desplazamiento a la izquierda
 var byte = 255 // 11111111
 console.log(`binario ${byte.toString(2)}`)
-byte <<= 2 
+byte <<= 2
 console.log(`el numero en binario se mueve 2 posiciones a la izquierda ${byte} binario -> ${byte.toString(2)}`) 
 
 // asignacion de desplazamiento a la derecha
@@ -85,7 +84,6 @@ console.log(`cualquier array aunque este vacio es ${Boolean([])}`)
 console.log(`cualquier objet aunque este vacio es ${Boolean({})}`)
 console.log(`cualquier funcion es verdadera ${Boolean(()=>{})}`)
 console.log(`negacion del false ${Boolean(!false)}`)
-=======
 //hoisting
 console.log(nombre)
 var nombre = 'alveiro'
@@ -106,10 +104,9 @@ var name = 'Alveiro'
 function nombre () {
     // scope local
     var apellido = 'Hoyos'
-    
+
     console.log(`${name} ${apellido}`)
 }
 
 nombre()
 console.log(`${apellido}`)
->>>>>>> e293bfcce228c7929a3b6fb590a3dc104e4e0453
