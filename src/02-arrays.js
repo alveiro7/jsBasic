@@ -1,17 +1,18 @@
 
 
-const frutas = ["manzana", "pera", "piña", "tomate"]
+const fruits = ["apple", "pear", "pinapple", "tomato"]
 
-frutas.length= 6
-console.log(`tengo ${frutas.length} frutas`)
-console.log(`${frutas}`)
-console.log(`${frutas[1]}`)
+fruits.length= 6 // ["apple", "pear", "pinapple", "tomato", , ,]
+console.log(fruits)
+console.log(`I have ${fruits.length} fruits in the fridge`)
+console.log(`${fruits}`)
+console.log(`${fruits[1]}`)
 
 
-const ary = new Array("hi", true, 3, [2, false], {name: "Cosme"});
-console.log(ary);
-console.log(ary.length)
-console.log(typeof(ary))
+const array = new Array("hi", true, 3, [2, false], {name: "Cosme"});
+console.log(array);
+console.log(array.length)
+console.log(typeof(array))
 
 const ary = ["hi", true, 3, [2, false], {name: "Cosme"} ]
 console.log(ary);

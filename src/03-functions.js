@@ -1,10 +1,10 @@
 // Declarativas
-function area (b, h) {
+function getArea (b, h) {
     resultado = (b * h) / 2
     return console.log( `El area del triangulo es ${resultado}`)
 }
 
-area(10, 5)
+getArea(10, 5)
 
 // Expresion
 
@@ -15,7 +15,7 @@ area(10, 5)
 const area = (b, h) => {
     var total = (b * h) / 2
     console.log(`El area del triangulo es ${total}`)
-}  
+}
 
 area(5, 4)
 

@@ -38,3 +38,5 @@ console.log( typeof symbol1)
 console.log( symbol1, symbol2)
 
 console.log( symbol1 === symbol2)
+
+const enum = 10
