@@ -6,8 +6,17 @@
  *   0, 1, 1, 2, 3, 5, 8, 13...
  */
 
-let fibo = [ 0, 1]
-for (let i = 2; i < 49; i++) {
-    fibo.push(fibo[i-1] - fibo[i-2])
-    console.log({fibo})
+function fibonacci(num) {
+    let a = 0, b = 1, c, result = [a, b]
+
+    for (let i = 2; i < num; i++) {
+        c = a + b
+        result.push(c)
+        a = b
+        b = c
+    }
+
+    return result
 }
+
+console.log(fibonacci(10))
